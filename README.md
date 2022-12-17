@@ -1,3 +1,3 @@
-# Web Development Project
+Web Development
 
-I worked in a group of three. We developed a react application that allows users to view house listings for sale. Users can register and log-in through google firebase authentication. If user's login, then they can create their own house listing and put it up for sale to be viewed by others. Users can view the current weather for the island of palau on the homepage. Lastly, Users can contact us through the use of the email service we implemented: email/js
+Users can register/login through google firebase authentication. Users can view house listing for sale, data taken from firebase. User can view the current weather for the country of Palau implemented using web scraping. Users can contact us through the email service we created using email/js.
