@@ -1,9 +1,3 @@
-# Course Project
+# Web Development Project
 
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8938154&assignment_repo_type=AssignmentRepo)
-
-
-This repository contains practice exercises for the _Web Application Development_ at WWU.
-It has been adapted from _Client-Side Web Development_ course at the UW iSchool.
-
-The site can be viewed at <https://wwu-cptr220-a22.github.io/project-yourusername/>
+I worked in a group of three. We developed a react application that allows users to view house listings for sale. Users can register and log-in through google firebase authentication. If user's login, then they can create their own house listing and put it up for sale to be viewed by others. Users can view the current weather for the island of palau on the homepage. Lastly, Users can contact us through the use of the email service we implemented: email/js
