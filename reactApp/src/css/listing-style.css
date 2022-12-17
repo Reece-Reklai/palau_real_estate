@@ -1,0 +1,90 @@
+.post {
+  margin-top: 1rem;
+  background-color: #ffffffb2;
+}
+
+.map {
+  height: 15.7rem;
+  width: 20rem;
+}
+
+/* Incidental Styling */
+
+.listing-photo {
+  width: auto;
+  max-height: 250px;
+  padding: 0;
+  margin: 0;
+}
+
+/* animations */
+.listing-photo:hover {
+  transition: all 0.2s ease-out;
+  box-shadow: 4px 4px 5px black;
+}
+
+.image-panel {
+  display: none;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Google Maps */
+.google-maps {
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+/* on 598px OR LARGER displays */
+@media (min-width: 598px) {
+  .image-panel {
+    display: flex;
+  }
+
+  .map-link {
+    display: none;
+  }
+}
+
+/* on 992px OR LARGER displays */
+@media (min-width: 992px) {
+  .map {
+    margin-left: 0.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .map {
+    margin-left: 0.5rem;
+    width: 30rem;
+  }
+}
+
+#top-button {
+  display: none;
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Return to Top Button */
+#top-button:hover {
+  background-color: cadetblue;
+}
+
+#buy-footer {
+  color: white;
+  text-align: center;
+  background-color: rgba(0 0 0 / 45%);
+  margin-top: 5px;
+}
